@@ -1,1 +1,28 @@
 Title: Home
+----
+Text: 
+
+<div class="o-container">
+	<form action="">
+		<label for="">Label</label>
+		<input type="text" placeholder=".c-form-input" class="c-form-input">
+		<label for="">Label</label>
+		<input type="text" placeholder=".c-form-input" class="c-form-input">
+		<label for="">Select</label>
+		<select name="" id="" class="c-form-input">
+			<option value="">Option 1</option>
+			<option value="">Option 2</option>
+			<option value="">Option 3</option>
+			<option value="">Option 4</option>
+		</select>
+		<legend>Checkbox</legend>
+		<label>
+      <input type="radio" class="c-form-check-input" name="optionsRadios" id="optionsRadios1" value="option1">
+      Option one is this and that—be sure to include why it's great
+    </label>
+    <label>
+      <input type="radio" class="c-form-check-input" name="optionsRadios" id="optionsRadios1" value="option1">
+      Option one is this and that—be sure to include why it's great
+    </label>
+	</form>
+</div>

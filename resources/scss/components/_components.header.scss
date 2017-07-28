@@ -6,11 +6,36 @@
 .c-header {
   background: $white;
   &--logo {
-    padding: rem(16);
+    // padding: rem(16);
+    flex-basis: 100%;
+    display: flex;
+    flex-flow: row wrap;
+  	justify-content: center;
+  	@include breakpoint(md) {
+  		flex-basis: auto;
+  	}
   }
   &--navigation {
+  	flex-basis: 100%;
+  	@include breakpoint(md) {
+  		flex-basis: auto;
+  	}
     &__link {
-      color: map-get($brand-color, primary);
+      color: $gray-dark;
+      padding-left: rem(12);
+      padding-right: rem(12);
+      flex: 0 0 auto;
+      &:hover {
+      	color: lighten($gray-dark, 15%);
+      }
     }
+  }
+  &__cta {
+  	margin-top: rem(12);
+  	margin-bottom: rem(12);
+  	flex-basis: 100%;
+  	@include breakpoint(md) {
+  		flex-basis: auto;
+  	}
   }
 }

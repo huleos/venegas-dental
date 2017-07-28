@@ -14,6 +14,7 @@ legend {
 
 label{
 	display: inline-block;
+  margin-bottom: rem(6);
 }
 
 input[type='search'],
@@ -23,10 +24,12 @@ input[type=email],
 input[type=password],
 input[type=number],
 textarea {
+  display: block;
   width: 100%;
   font-family: inherit;
   vertical-align: middle;
   outline: none;
+  line-height: 1.5;
   &:focus{
   	outline: none;
   }

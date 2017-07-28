@@ -7,6 +7,8 @@
 // TOOLS
 @import 'tools/tools.rem';
 @import 'tools/tools.breakpoints';
+@import 'tools/tools.clearfix';
+@import 'tools/tools.button-style';
 
 // GENERIC
 @import 'generic/generic.box-sizing';
@@ -34,6 +36,8 @@
 
 
 // COMPONENTS
+@import 'components/components.buttons';
+@import 'components/components.forms';
 @import 'components/components.header';
 
 
