@@ -628,6 +628,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+p {
+  margin-bottom: 1rem; }
+
 /* ==========================================================================
    #TABLES
    ========================================================================== */
@@ -646,16 +649,23 @@ table {
    #CONTAINERS
    ========================================================================== */
 .o-container {
+  width: 100%;
   max-width: 71.25rem;
   margin-right: auto;
   margin-left: auto;
   padding-left: 0.9375rem;
   padding-right: 0.9375rem; }
-
-.o-container--full {
-  width: 100%;
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem; }
+  .o-container--full {
+    width: 100%;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem; }
+  .o-container--sm {
+    width: 100%;
+    max-width: 42.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem; }
 
 /* ==========================================================================
    #FLEX
@@ -796,6 +806,12 @@ table {
     .c-button--primary:hover, .c-button--primary:focus {
       color: #fefefe;
       background-color: #3abab1; }
+  .c-button--small {
+    font-size: 87.5%; }
+  .c-button--medium {
+    font-size: 112.5%; }
+  .c-button--large {
+    font-size: 125%; }
 
 .c-form-input {
   padding: 0.5rem 0.75rem;
@@ -844,5 +860,30 @@ select.c-form-input:not([size]):not([multiple]) {
     @media print, screen and (min-width: 640px) {
       .c-header__cta {
         flex-basis: auto; } }
+
+.c-footer--newsletter {
+  background-color: #dcdcdc;
+  text-align: center;
+  padding-top: 2.125rem;
+  padding-bottom: 2.125rem; }
+
+.c-footer--form {
+  -webkit-box-flex: 0;
+          flex: 0 0 90%;
+  max-width: 90%; }
+
+.c-footer--cr {
+  background-color: #323b44;
+  padding-top: 0.9375rem;
+  padding-bottom: 0.9375rem;
+  color: #fff; }
+  .c-footer--cr p {
+    margin-bottom: 0; }
+
+.c-footer--nav__link {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  -webkit-box-flex: 0;
+          flex: 0 0 auto; }
 
 /*# sourceMappingURL=bundle.css.map*/

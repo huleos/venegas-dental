@@ -1,0 +1,39 @@
+///* ========================================================================
+//   #FOOTER
+//   ======================================================================== */
+
+.c-footer {
+	&--newsletter {
+		background-color: #dcdcdc;
+		text-align: center;
+		padding-top: rem(34);
+		padding-bottom: rem(34);
+		&__title {
+			
+		}
+		&__text {
+
+		}
+	}
+	&--form {
+		flex: 0 0 90%;
+		max-width: 90%;
+	}
+	&--cr {
+		background-color: #323b44;
+		padding-top: rem(15);	
+		padding-bottom: rem(15);
+		color: #fff;
+		p {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.c-footer--nav {
+	&__link {
+		padding-left: rem(12);
+  	padding-right: rem(12);
+  	flex: 0 0 auto;
+	}
+}

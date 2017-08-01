@@ -36,4 +36,8 @@ $btn-radius: $global-radius;
   &--primary {
   	@include button-style($btn-primary-color, $btn-primary-bg);
   }
+
+  &--small { font-size: 87.5%; }
+  &--medium { font-size: 112.5%; }
+  &--large { font-size: 125%; }
 }
