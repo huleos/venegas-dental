@@ -2,6 +2,8 @@
 //   #FORMS
 //   ======================================================================== */
 
+$input-font-family: $body-font-family !default;
+
 fieldset {
   margin: 0;
   padding: 0;
@@ -15,6 +17,14 @@ legend {
 label{
 	display: inline-block;
   margin-bottom: rem(6);
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: $input-font-family;
 }
 
 input[type='search'],

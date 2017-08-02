@@ -25,6 +25,7 @@ $header-font-family: serif !default;
   font-family: $header-font-family;
   font-weight: normal;
   line-height: 1.2;
+  margin-bottom: rem(12);
   text-rendering: optimizeLegibility;
   small{
     line-height: 0;

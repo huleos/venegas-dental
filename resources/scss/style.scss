@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 // SETTINGS
-@import 'settings/settings.global';
 @import 'settings/settings.colors';
+@import 'settings/settings.global';
 
 // TOOLS
 @import 'tools/tools.rem';
@@ -37,9 +37,11 @@
 
 // COMPONENTS
 @import 'components/components.buttons';
+@import 'components/components.cover';
 @import 'components/components.forms';
 @import 'components/components.header';
 @import 'components/components.footer';
 
 
 // UTILITIES
+@import 'utilities/utilities.padding';

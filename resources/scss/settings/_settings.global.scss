@@ -4,6 +4,12 @@
 // The global settings file contains any project-wide variables; things that
 // need to be made available to the entire codebase.
 
+
+@import url(https://fonts.googleapis.com/css?family=Sarala);
+
+$body-font-family: 'Sarala', sans-serif;
+$header-font-family: $body-font-family;
+
 $global-radius: 3px;
 
 

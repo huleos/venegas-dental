@@ -8,6 +8,10 @@
 		text-align: center;
 		padding-top: rem(34);
 		padding-bottom: rem(34);
+		@include breakpoint(md) {
+			padding-top: rem(50);
+			padding-bottom: rem(50);
+		}
 		&__title {
 			
 		}
