@@ -824,12 +824,35 @@ table {
 .c-cover {
   -webkit-box-flex: 0;
           flex: 0 0 100%;
-  max-width: 100%; }
+  max-width: 100%;
+  background-image: url(../images/smiling.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+          align-items: flex-end;
+  min-height: 250px; }
   @media print, screen and (min-width: 640px) {
     .c-cover {
       -webkit-box-flex: 0;
               flex: 0 0 65%;
       max-width: 65%; } }
+  .c-cover__intro {
+    width: 100%;
+    padding: 0.9375rem;
+    background-color: rgba(7, 109, 102, 0.72); }
+  .c-cover__text {
+    color: #fefefe;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    text-align: center; }
+    @media print, screen and (min-width: 640px) {
+      .c-cover__text {
+        font-size: 3.625rem; } }
 
 .c-form-input {
   padding: 0.5rem 0.75rem;
@@ -859,8 +882,12 @@ select.c-form-input:not([size]):not([multiple]) {
       -webkit-box-flex: 0;
               flex: 0 0 35%;
       max-width: 35%;
-      padding-left: 3.125rem;
-      padding-right: 3.125rem; } }
+      padding-left: 2.5rem;
+      padding-right: 2.5rem; } }
+  @media print, screen and (min-width: 1440px) {
+    .c-form-cta {
+      padding-left: 6rem;
+      padding-right: 6rem; } }
 
 .c-header {
   background: #fefefe; }
@@ -909,16 +936,22 @@ select.c-form-input:not([size]):not([multiple]) {
 
 .c-footer--form {
   -webkit-box-flex: 0;
-          flex: 0 0 90%;
-  max-width: 90%; }
+          flex: 0 0 75%;
+  max-width: 75%; }
 
-.c-footer--cr {
+.c-footer--bottom {
   background-color: #323b44;
   padding-top: 0.9375rem;
   padding-bottom: 0.9375rem;
   color: #fff; }
-  .c-footer--cr p {
-    margin-bottom: 0; }
+
+.c-footer__copy {
+  width: 100%;
+  text-align: center; }
+  @media print, screen and (min-width: 640px) {
+    .c-footer__copy {
+      margin-bottom: 0;
+      width: inherit; } }
 
 .c-footer--nav__link {
   padding-left: 0.75rem;

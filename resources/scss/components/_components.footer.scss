@@ -20,16 +20,21 @@
 		}
 	}
 	&--form {
-		flex: 0 0 90%;
-		max-width: 90%;
+		flex: 0 0 75%;
+		max-width: 75%;
 	}
-	&--cr {
+	&--bottom {
 		background-color: #323b44;
 		padding-top: rem(15);	
 		padding-bottom: rem(15);
 		color: #fff;
-		p {
+	}
+	&__copy {
+		width: 100%;
+		text-align: center;
+		@include breakpoint(md) {
 			margin-bottom: 0;
+			width: inherit;
 		}
 	}
 }

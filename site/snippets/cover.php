@@ -1,3 +1,5 @@
 <div class="c-cover">
-	<h2>cover snippet</h2>
+	<div class="c-cover__intro">
+		<h1 class="c-cover__text">Save more on dental work</h1>
+	</div>
 </div>

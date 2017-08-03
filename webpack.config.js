@@ -1,5 +1,6 @@
 // Dependencies
 let path = require('path');
+let webpack = require('webpack')
 let ExtractTextPlugin = require('extract-text-webpack-plugin')
 let CopyWebpackPlugin = require('copy-webpack-plugin')
 let ImageminWebpackPlugin = require('imagemin-webpack-plugin').default
@@ -58,7 +59,15 @@ module.exports = {
 						}
 					]
 				})
-			}
+			},
+			{ // Images
+				test: /\.(jpe?g|png|gif|svg)$/i,
+				use: [
+					'file-loader?name=../images/[name].[ext]',
+					'image-webpack-loader'
+					// 'file-loader?name=[name].[ext]&outputPath=images/&publicPath=images/',
+				]
+			},
 		]
 	},
 	plugins: [

@@ -13,10 +13,10 @@
   			</div>
     	</div>
 		</div>
-		<div class="c-footer--cr">
+		<div class="c-footer--bottom">
 			<div class="o-container">
 				<div class="o-flex o-flex--justify o-flex--middle">
-					<p>&copy; 2017 All Rights Reserved</p>
+					<p class="c-footer__copy">&copy; 2017 All Rights Reserved</p>
 					<nav class="c-footer--nav o-flex o-flex--center o-flex--middle">
 						<a href="" class="c-footer--nav__link">Terms & Conditions</a>
 						<a href="" class="c-footer--nav__link">Privacy Policy</a>

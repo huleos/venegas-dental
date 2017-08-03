@@ -42,7 +42,11 @@ select.c-form-input {
 	@include breakpoint(md) {
 		flex: 0 0 35%;
 		max-width: 35%;
-		padding-left: rem(50);
-		padding-right: rem(50);
+		padding-left: rem(40);
+		padding-right: rem(40);
+	}
+	@include breakpoint(xxl) {
+		padding-left: rem(96);
+		padding-right: rem(96);
 	}
 }
