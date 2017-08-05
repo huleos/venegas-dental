@@ -32,7 +32,7 @@ $btn-radius: $global-radius;
     outline: 0;
     background-image: none;
   }
-
+	
   &--primary {
   	@include button-style($btn-primary-color, $btn-primary-bg);
   }

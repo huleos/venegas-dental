@@ -1,28 +1,27 @@
 Title: Home
+
 ----
+
 Text: 
 
-<div class="o-container">
-	<form action="">
-		<label for="">Label</label>
-		<input type="text" placeholder=".c-form-input" class="c-form-input">
-		<label for="">Label</label>
-		<input type="text" placeholder=".c-form-input" class="c-form-input">
-		<label for="">Select</label>
-		<select name="" id="" class="c-form-input">
-			<option value="">Option 1</option>
-			<option value="">Option 2</option>
-			<option value="">Option 3</option>
-			<option value="">Option 4</option>
-		</select>
-		<legend>Checkbox</legend>
-		<label>
-      <input type="radio" class="c-form-check-input" name="optionsRadios" id="optionsRadios1" value="option1">
-      Option one is this and that—be sure to include why it's great
-    </label>
-    <label>
-      <input type="radio" class="c-form-check-input" name="optionsRadios" id="optionsRadios1" value="option1">
-      Option one is this and that—be sure to include why it's great
-    </label>
-	</form>
-</div>
+----
+
+Covertext: Save more on dental work
+
+----
+
+Procedures: 
+
+- 
+  title: Tratamiento
+  text: 'Pellentesque semper mauris et interdum malesuada. Vivamus in lacus hendrerit, auctor urna laoreet, mollis eros. Donec consectetur viverra urna, eu malesuada sem commodo vel. Etiam sagittis mauris purus, at facilisis elit faucibus non. Mauris commodo tristique lorem vitae tincidunt. Ut sed sollicitudin enim. Vestibulum dignissim dui vulputate enim venenatis feugiat. **Nullam non tempus odio**. Morbi ut augue sagittis, pellentesque erat ut, volutpat arcu. Nullam consectetur nunc non eros sodales dignissim. Praesent lacinia tristique risus, non suscipit nulla viverra sed. Proin id euismod nulla, viverra pharetra neque.'
+- 
+  title: Orthodontics
+  text: >
+    Lorem ipsum dolor sit amet, consectetur
+    adipisicing elit. Inventore voluptatum
+    iste temporibus possimus natus fuga
+    consequuntur distinctio, accusantium
+    repudiandae ex veniam dicta deserunt
+    placeat velit officiis dignissimos
+    veritatis, quia reprehenderit!

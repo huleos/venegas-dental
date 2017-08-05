@@ -21,3 +21,21 @@
   padding-top: 0;
   padding-bottom: 0;
 }
+
+/* Spacing Level 1 */
+
+.u-p1  { padding: rem(15); }
+.u-pt1 { padding-top: rem(15); }
+.u-pr1 { padding-right: rem(15); }
+.u-pb1 { padding-bottom: rem(15); }
+.u-pl1 { padding-left: rem(15); }
+
+.u-px1 {
+  padding-right: rem(15);
+  padding-left: rem(15);
+}
+
+.u-py1 {
+  padding-top: rem(15);
+  padding-bottom: rem(15);
+}

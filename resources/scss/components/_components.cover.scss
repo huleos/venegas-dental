@@ -30,6 +30,7 @@
 		text-align: center;
 		@include breakpoint(md) {
 			font-size: rem(58);
+			margin-bottom: rem(15);
 		}
 	}
 }

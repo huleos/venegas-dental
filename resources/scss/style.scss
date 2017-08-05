@@ -9,6 +9,7 @@
 @import 'tools/tools.breakpoints';
 @import 'tools/tools.clearfix';
 @import 'tools/tools.button-style';
+// @import 'tools/tools.bem';
 
 // GENERIC
 @import 'generic/generic.box-sizing';
@@ -41,6 +42,8 @@
 @import 'components/components.forms';
 @import 'components/components.header';
 @import 'components/components.footer';
+@import 'components/components.about';
+@import 'components/components.procedures';
 
 
 // UTILITIES

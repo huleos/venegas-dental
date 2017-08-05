@@ -1,0 +1,30 @@
+title: Home
+pages: false
+files: true
+fields:
+  title:
+    label: Title
+    type:  text
+  text:
+    label: Text
+    type:  textarea
+  coverText:
+    label: Cover Text
+    type: text
+    help: Max of 30 characters required.
+    validate:
+      max: 30
+  procedures:
+    label: Procedures
+    type: structure
+    flip: true
+    entry: >
+      <b>{{title}}</b><br />
+      {{text}}
+    fields:
+      title:
+        label: Title
+        type: text
+      text:
+        label: Treatment
+        type: textarea

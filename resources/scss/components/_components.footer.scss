@@ -2,47 +2,40 @@
 //   #FOOTER
 //   ======================================================================== */
 
+$bg-footer-bottom: $gray-ultra !default;
+
 .c-footer {
-	&--newsletter {
-		background-color: #dcdcdc;
-		text-align: center;
-		padding-top: rem(34);
-		padding-bottom: rem(34);
-		@include breakpoint(md) {
-			padding-top: rem(50);
-			padding-bottom: rem(50);
-		}
-		&__title {
-			
-		}
-		&__text {
+  &--newsletter {
+    background-color: #dcdcdc;
+    color: $gray-ultra;
+    text-align: center;
+    padding-top: rem(48);
+    padding-bottom: rem(48);
+  }
+  &--form{
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  &--bottom{
+    background-color: $bg-footer-bottom;
+    padding-top: rem(15); 
+    padding-bottom: rem(15);
+    color: #fff;
+  }
+  &__copy {
+    width: 100%;
+    text-align: center;
+    @include breakpoint(md) {
+      margin-bottom: 0;
+      width: inherit;
+    }
+  }
 
-		}
-	}
-	&--form {
-		flex: 0 0 75%;
-		max-width: 75%;
-	}
-	&--bottom {
-		background-color: #323b44;
-		padding-top: rem(15);	
-		padding-bottom: rem(15);
-		color: #fff;
-	}
-	&__copy {
-		width: 100%;
-		text-align: center;
-		@include breakpoint(md) {
-			margin-bottom: 0;
-			width: inherit;
-		}
-	}
-}
-
-.c-footer--nav {
-	&__link {
-		padding-left: rem(12);
-  	padding-right: rem(12);
-  	flex: 0 0 auto;
-	}
+  &--nav {
+    &__link {
+      padding-left: rem(12);
+      padding-right: rem(12);
+      flex: 0 0 auto;
+    }
+  }
 }

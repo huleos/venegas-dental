@@ -2,6 +2,7 @@
 //   #COLORS
 //   ======================================================================== */
 
+$gray-ultra:            #323b44 !default;
 $gray-dark:         		#8a8a8a !default;
 $gray-medium:           #cacaca !default;
 $gray-light:        		#e6e6e6 !default;
@@ -10,7 +11,8 @@ $white:             		#fefefe !default;
 
 $brand-color:(
 	primary: #55cac2,
-	secondary: #767676,
+	secondary: #1e3656,
+	bluelight: #a9dada,
 	success: #5cb85c,
 	warning: #ffae00,
 	alert:   #f1391c,

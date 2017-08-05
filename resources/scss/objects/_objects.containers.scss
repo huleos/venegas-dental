@@ -12,12 +12,15 @@
   max-width: rem(1140);
   margin-right: auto;
   margin-left: auto;
+  position: relative;
   @include gutter(15);
   &--full {
+    position: relative;
     width: 100%;
     @include gutter(15);
   }
   &--sm {
+    position: relative;
     width: 100%;
     max-width: rem(680);
     margin-right: auto;

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-
-  <title><?php echo $site->title()->html() ?> | <?php echo $page->title()->html() ?></title>
+  <title><?= ($page->meta_title() != '') ? $page->meta_title() : $site->title() ?></title>
+  <meta name="description" content="<?= ($page->meta_description() != '') ? $page->meta_description() : $site->description() ?>" />
+  <link rel="canonical" href="<?= $page->url() ?>">
 	<?= css('assets/css/bundle.css') ?>
 </head>
 <body>
