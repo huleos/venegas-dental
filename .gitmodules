@@ -1,3 +1,3 @@
-[submodule "site/plugins/blade"]
-	path = site/plugins/blade
-	url = https://github.com/pedroborges/kirby-blade-template.git
+[submodule "site/plugins/uniform"]
+	path = site/plugins/uniform
+	url = https://github.com/mzur/kirby-uniform.git

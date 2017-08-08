@@ -10,10 +10,11 @@
 <!-- /Cover with Form Snippet -->
 <?php snippet('about') ?>
 
-<section class="o-container--md u-pt4 u-pb4">
+<section class="o-container--md u-pt4">
 	<div class="o-flex">
 	<?= $page->text()->kirbytext() ?>
 	</div>
 </section>
 
+<?php snippet('reviews') ?>
 <?php snippet('footer') ?>

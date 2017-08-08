@@ -32,7 +32,6 @@
   }
 
   &__block {
-    background-color: lighten($gray-light, 12%);
     border: 1px solid $gray-light;
     padding: rem(26);
     margin-bottom: rem(22);
@@ -53,8 +52,13 @@
 
 .c-rating {
   display: inline-flex;
-  white-space: nowrap;
-  vertical-align: baseline;
+  align-items: center;
+  margin-bottom: rem(15);
+
+  &__title {
+    margin-right: rem(8);
+    color: $gray-dark;
+  }
 
   &__star {
     color: rgba(0,0,0,.15);

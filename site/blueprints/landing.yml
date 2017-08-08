@@ -1,6 +1,7 @@
-title: Home
+title: Landing
 pages: false
 files: true
+
 fields:
   title:
     label: Title
@@ -14,30 +15,6 @@ fields:
     help: Max of 30 characters required.
     validate:
       max: 30
-  treatments:
-    label: Treatments
-    type: structure
-    flip: true
-    entry: >
-      <b>{{title}}</b><br />
-      {{text}}
-    fields:
-      title:
-        label: Title
-        type: text
-      text:
-        label: Description
-        type: textarea
-  titleCity:
-    label: City
-    type: text
-  aboutCity:
-    label: About City
-    type:  textarea
-  imageCity:
-     label: Picture
-     type: image
-
   reviews:
     label: Reviews
     type: structure
