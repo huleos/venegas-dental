@@ -6,7 +6,8 @@
   <title><?= ($page->meta_title() != '') ? $page->meta_title() : $site->title() ?></title>
   <meta name="description" content="<?= ($page->meta_description() != '') ? $page->meta_description() : $site->description() ?>" />
   <link rel="canonical" href="<?= $page->url() ?>">
-	<?= css('assets/css/bundle.css') ?>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <?= css('assets/css/bundle.css') ?>
 </head>
 <body>
 

@@ -14,8 +14,8 @@ fields:
     help: Max of 30 characters required.
     validate:
       max: 30
-  procedures:
-    label: Procedures
+  treatments:
+    label: Treatments
     type: structure
     flip: true
     entry: >
@@ -26,5 +26,49 @@ fields:
         label: Title
         type: text
       text:
-        label: Treatment
+        label: Description
+        type: textarea
+  titleCity:
+    label: City
+    type: text
+  aboutCity:
+    label: About City
+    type:  textarea
+  imageCity:
+     label: Picture
+     type: image
+
+  reviews:
+    label: Reviews
+    type: structure
+    flip: true
+    entry: >
+      <b>{{name}}</b><br>
+      <b>Score</b> {{score}}<br>
+      {{city}}, {{state}}<br>
+      {{text}}
+    fields:
+      name:
+        label: Name
+        type: text
+      city:
+        label: City
+        type: text
+        width: 3/4
+      state:
+        label: State
+        type: text
+        width: 1/4
+
+      score:
+        label: Score
+        type: select
+        options:
+          5: Excellent
+          4: Very Good
+          3: Good
+          2: Average
+          1: Poor
+      text:
+        label: Description
         type: textarea

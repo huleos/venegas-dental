@@ -1,0 +1,35 @@
+///* ========================================================================
+//   #CITY
+//   ======================================================================== */
+
+.c-city {
+	background-color: #f7a70d;
+	padding-top: rem(48);
+  padding-bottom: rem(48);
+  overflow: auto;
+
+  &__about {
+    flex: 0 0 100%;
+    max-width: 100%;
+    color: $white;
+    @include breakpoint(md) {
+      flex-basis: 60%;
+      max-width: 60%;
+    }
+	  &--title {
+	    font-size: rem(34);
+	    margin-bottom: rem(26);
+	  }
+  }
+
+  &__image {
+  	flex: 0 0 100%;
+    max-width: 100%;
+    color: $white;
+    @include breakpoint(md) {
+      flex-basis: 40%;
+      max-width: 40%;
+    }
+  }
+
+}

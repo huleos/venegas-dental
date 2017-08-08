@@ -962,58 +962,138 @@ select.c-form-input:not([size]):not([multiple]) {
 .c-about {
   background-color: #323b44; }
   .c-about__doctor {
+    position: relative;
     -webkit-box-flex: 0;
             flex: 0 0 100%;
     max-width: 100%;
-    margin-bottom: 1.875rem; }
+    min-height: 13.75rem; }
     @media print, screen and (min-width: 640px) {
       .c-about__doctor {
         flex-basis: 50%;
         max-width: 50%;
-        margin-bottom: 0; } }
+        height: 17.5rem; } }
     .c-about__doctor--image {
-      margin-top: -0.9375rem;
-      margin-bottom: -0.9375rem;
+      position: absolute;
+      z-index: 3;
+      top: -1.25rem;
+      left: 0;
       box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
+      @media print, screen and (min-width: 640px) {
+        .c-about__doctor--image {
+          max-height: 20rem; } }
   .c-about__text {
     -webkit-box-flex: 0;
             flex: 0 0 100%;
     max-width: 100%;
-    color: #fefefe;
-    margin-bottom: 1.875rem;
-    padding-top: 0.9375rem; }
+    color: #fefefe; }
     @media print, screen and (min-width: 640px) {
       .c-about__text {
         flex-basis: 50%;
         max-width: 50%; } }
 
-.c-procedures {
+.c-treatments {
   padding-top: 3rem;
   padding-bottom: 3rem;
   background-color: #a9dada;
   overflow: auto; }
   @media print, screen and (min-width: 640px) {
-    .c-procedures {
-      padding-top: 3.625rem; } }
-  .c-procedures--title {
+    .c-treatments {
+      padding-top: 4rem; } }
+  .c-treatments--title {
     color: #fefefe;
     text-align: center;
     font-size: 2.125rem;
     margin-bottom: 1.625rem; }
-  .c-procedures__container {
+
+.c-treatment__container {
+  -webkit-box-flex: 0;
+          flex: 0 0 100%;
+  max-width: 100%; }
+  @media print, screen and (min-width: 640px) {
+    .c-treatment__container {
+      flex-basis: 50%;
+      max-width: 50%; } }
+
+.c-treatment__block {
+  background-color: #f8fdfd;
+  padding: 1.625rem;
+  margin-bottom: 1.375rem; }
+  .c-treatment__block--title {
+    font-size: 1.625rem;
+    color: #1e3656; }
+
+.c-city {
+  background-color: #f7a70d;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  overflow: auto; }
+  .c-city__about {
     -webkit-box-flex: 0;
             flex: 0 0 100%;
-    max-width: 100%; }
+    max-width: 100%;
+    color: #fefefe; }
     @media print, screen and (min-width: 640px) {
-      .c-procedures__container {
-        flex-basis: 50%;
-        max-width: 50%; } }
-  .c-procedures__block {
-    background-color: #f8fdfd;
-    padding: 1.625rem; }
-    .c-procedures__block--title {
-      font-size: 1.625rem;
-      color: #1e3656; }
+      .c-city__about {
+        flex-basis: 60%;
+        max-width: 60%; } }
+    .c-city__about--title {
+      font-size: 2.125rem;
+      margin-bottom: 1.625rem; }
+  .c-city__image {
+    -webkit-box-flex: 0;
+            flex: 0 0 100%;
+    max-width: 100%;
+    color: #fefefe; }
+    @media print, screen and (min-width: 640px) {
+      .c-city__image {
+        flex-basis: 40%;
+        max-width: 40%; } }
+
+.c-reviews {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  overflow: auto; }
+  @media print, screen and (min-width: 640px) {
+    .c-reviews {
+      padding-top: 4rem; } }
+  .c-reviews--title {
+    color: #1e3656;
+    text-align: center;
+    font-size: 2.125rem;
+    margin-bottom: 1.625rem; }
+
+.c-review__container {
+  -webkit-box-flex: 0;
+          flex: 0 0 100%;
+  max-width: 100%; }
+  @media print, screen and (min-width: 640px) {
+    .c-review__container {
+      flex-basis: 50%;
+      max-width: 50%; } }
+
+.c-review__block {
+  background-color: white;
+  border: 1px solid #e6e6e6;
+  padding: 1.625rem;
+  margin-bottom: 1.375rem; }
+
+.c-review--info__name {
+  font-size: 1.25rem; }
+
+.c-review--info__city {
+  color: #8a8a8a; }
+  .c-review--info__city:before {
+    content: " - "; }
+
+.c-rating {
+  display: -webkit-inline-box;
+  display: inline-flex;
+  white-space: nowrap;
+  vertical-align: baseline; }
+  .c-rating__star {
+    color: rgba(0, 0, 0, 0.15); }
+    .c-rating__star.is-active {
+      color: #ffb400; }
 
 /*---------Spacing Utilities: Padding----------*/
 /* Spacing Level 0 */

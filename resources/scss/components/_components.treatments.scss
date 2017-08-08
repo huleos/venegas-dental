@@ -1,17 +1,17 @@
 ///* ========================================================================
-//   #PROCEDURES
+//   #TREATMENTS
 //   ======================================================================== */
 
-$bg-color-procedure: map-get($brand-color, primary) !default
+$bg-color-treatment: map-get($brand-color, primary) !default;
 
-.c-procedures {
+.c-treatments {
 
   padding-top: rem(48);
   padding-bottom: rem(48);
   background-color: map-get($brand-color, bluelight);
   overflow: auto;
   @include breakpoint(md) {
-    padding-top: rem(42 + 16);
+    padding-top: rem(48 + 16);
   }
 
   &--title {
@@ -21,6 +21,9 @@ $bg-color-procedure: map-get($brand-color, primary) !default
     margin-bottom: rem(26);
   }
 
+}
+
+.c-treatment {
   &__container {
     flex: 0 0 100%;
     max-width: 100%;
@@ -31,12 +34,12 @@ $bg-color-procedure: map-get($brand-color, primary) !default
   }
 
   &__block {
-    background-color: lighten($bg-color-procedure, 42%);
+    background-color: lighten($bg-color-treatment, 42%);
     padding: rem(26);
+    margin-bottom: rem(22);
     &--title {
       font-size: rem(26);
       color: map-get($brand-color, secondary);
     }
   }
-
 }
