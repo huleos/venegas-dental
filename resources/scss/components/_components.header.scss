@@ -5,6 +5,7 @@
 
 .c-header {
   background: $white;
+
   &--logo {
     // padding: rem(16);
     flex-basis: 100%;
@@ -15,6 +16,7 @@
   		flex-basis: auto;
   	}
   }
+
   &--navigation {
   	flex-basis: 100%;
   	@include breakpoint(md) {
@@ -30,12 +32,25 @@
       }
     }
   }
+
+  &__tel {
+    a {
+      color: $gray-ultra;
+    }
+    @include breakpoint(md) {
+      a {
+        font-size: 120%;
+      }
+    }
+  }
+
   &__cta {
   	margin-top: rem(12);
-  	margin-bottom: rem(12);
+    margin-bottom: rem(12);
   	flex-basis: 100%;
   	@include breakpoint(md) {
   		flex-basis: auto;
+      margin-left: rem(18);
   	}
   }
 }
