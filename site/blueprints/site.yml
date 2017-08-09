@@ -25,7 +25,7 @@ fields:
     label: To
     type: email
     width: 1/2
-  contactFrom:
-    label: From
+  contactBcc:
+    label: Bcc
     type: email
     width: 1/2
