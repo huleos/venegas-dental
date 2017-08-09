@@ -9,5 +9,14 @@ Message: <?= $message ?>
 
 
 <?php
-    echo '<a href="' . htmlspecialchars("/siguientepagina.php?etapa=23&datos=") . '">'."\n";
+    echo '<p>' . 'hola' . '<p>'."\n";
+?>
+
+<?php /*Do some PHP calculation or something*/ ?>
+     <table>
+         <tr>
+             <td>Name</td>
+             <td><?= $fullName ?></td>
+         </tr>
+     </table>
 ?>
