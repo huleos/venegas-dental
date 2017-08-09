@@ -7,3 +7,7 @@ Contact number: <?= $contactNumber ?>
 Message: <?= $message ?>
 
 
+
+<?php
+    echo '<a href="' . htmlspecialchars("/siguientepagina.php?etapa=23&datos=") . '">'."\n";
+?>
