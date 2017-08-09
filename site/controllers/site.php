@@ -3,7 +3,8 @@ return function($site, $pages, $page) {
   $alert = null;
   if(r::is('post') && get('submit')) {
   // if(get('submit')) {
-    if(!empty(get('website'))) {
+    $honey = get('website');
+    if(!empty( $honey ) ) {
       // lets tell the bot that everything is ok
       go($page->url());
       exit;
