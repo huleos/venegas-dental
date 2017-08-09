@@ -4,7 +4,7 @@
 			<img class="c-about__doctor--image" src="<?= url('assets/images/teaser-dr.jpg') ?>" alt="">
 		</div>
 		<div class="c-about__text u-px1 u-py1">
-			<p><?= $site->aboutUs() ?></p>
+			<p><?= $site->aboutUs()->kirbytext() ?></p>
 			<!-- <a href="" class="c-button c-button--primary">Read more...</a> -->
 		</div>
 	</div>

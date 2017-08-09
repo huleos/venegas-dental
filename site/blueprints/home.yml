@@ -17,7 +17,6 @@ fields:
   treatments:
     label: Treatments
     type: structure
-    flip: true
     entry: >
       <b>{{title}}</b><br />
       {{text}}
