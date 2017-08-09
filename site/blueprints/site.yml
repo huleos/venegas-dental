@@ -24,12 +24,8 @@ fields:
   contactTo:
     label: To
     type: email
-    width: 1/3
+    width: 1/2
   contactFrom:
     label: From
     type: email
-    width: 1/3
-  contactReply:
-    label: Reply
-    type: email
-    width: 1/3
+    width: 1/2

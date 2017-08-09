@@ -39,7 +39,7 @@ return function($site, $pages, $page) {
       $email = email(array(
         'to' => $site->contactTo(),
         'from' => $site->contactFrom(),
-        'subject' => 'New email from {fullName}',
+        'subject' => 'New email from ' . $data['fullName'],
         'replyTo' => $data['emailAddress'],
         'body'    => $body
       ));
