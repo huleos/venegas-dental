@@ -1,4 +1,5 @@
 You have received a new message, here are the details:
+
 ----
 Name: <?= $fullName ?>
 
@@ -13,3 +14,4 @@ Contact number: <?= $contactNumber ?>
 
 ----
 Message: <?= $message ?>
+
