@@ -1,3 +1,0 @@
-[submodule "site/plugins/uniform"]
-	path = site/plugins/uniform
-	url = https://github.com/mzur/kirby-uniform.git
