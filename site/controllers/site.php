@@ -42,6 +42,9 @@ return function($site, $pages, $page) {
         'bcc' => ($site->contactBcc() != '') ? $site->contactBcc() : '',
         'subject' => 'New email from ' . $data['fullName'],
         'replyTo' => $data['emailAddress'],
+        'X-Mailer'                  => 'PHP v' . phpversion(),
+        'Content-Type'              => 'text/html; charset=utf-8',
+        'Content-Transfer-Encoding' => '8bit',
         'body'    => $body
       ));
       // try to send it and redirect to the
