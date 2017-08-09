@@ -1,14 +1,7 @@
-Hey,
-
-a new contact request has been submitted!
-
-----
-Name: <?php echo $fullName ?>
-----
-Email: <?php echo $emailAddress ?>
-----
-City of residence: <?= $cityOfResidence ?>
-----
-Contact number: <?= $contactNumber ?>
-----
-Message: <?php echo $message ?>
+You have received a new message, here are the details:
+<br>
+<b>Name:</b> <?= $fullName ?>
+<b>Email:</b> <?= $emailAddress ?>
+<b>City of residence:</b> <?= $cityOfResidence ?>
+<b>Contact number:</b> <?= $contactNumber ?>
+<b>Message:</b><br> <?= $message ?>
