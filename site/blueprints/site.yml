@@ -17,3 +17,19 @@ fields:
   aboutUs:
     label: About Us
     type: textarea
+
+  contact:
+    label: Email
+    type: headline
+  contactTo:
+    label: To
+    type: email
+    width: 1/3
+  contactFrom:
+    label: From
+    type: email
+    width: 1/3
+  contactReply:
+    label: Reply
+    type: email
+    width: 1/3

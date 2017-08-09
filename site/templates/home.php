@@ -19,7 +19,7 @@
 				<div class="c-treatment__block">
 					<h3 class="c-treatment__block--title"><?= $item->title() ?></h3>
 					<p><?= excerpt($item->text(), 350) ?></p>
-					<a href="">Read more...</a>
+					<a href="<?= $item->link() ?>">Read more...</a>
 				</div>
 			</div>
 			<?php endforeach ?>

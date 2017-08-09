@@ -11,6 +11,7 @@
 // Variables
 $global-font-size: 1rem !default;
 $header-font-family: serif !default;
+$header-text-color: $gray-ultra !default;
 
 
 @function headings($from:1, $to:6) {
@@ -27,6 +28,7 @@ $header-font-family: serif !default;
   line-height: 1.2;
   margin-bottom: rem(12);
   text-rendering: optimizeLegibility;
+  color: $header-text-color;
   small{
     line-height: 0;
   }

@@ -28,6 +28,9 @@ fields:
       text:
         label: Description
         type: textarea
+      link:
+        label: Landing url
+        type: url
   titleCity:
     label: City
     type: text

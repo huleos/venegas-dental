@@ -49,4 +49,10 @@ select.c-form-input {
 		padding-left: rem(96);
 		padding-right: rem(96);
 	}
+
+	&__title {
+		color: $white;
+	}
 }
+
+.uniform__potty { position: absolute; left: -9999px; }

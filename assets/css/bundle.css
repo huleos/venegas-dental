@@ -529,7 +529,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   line-height: 1.2;
   margin-bottom: 0.75rem;
-  text-rendering: optimizeLegibility; }
+  text-rendering: optimizeLegibility;
+  color: #323b44; }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     line-height: 0; }
 
@@ -631,7 +632,7 @@ body {
   font-family: "Sarala", sans-serif;
   font-weight: normal;
   line-height: 1.5;
-  color: #0a0a0a;
+  color: #323b44;
   background-color: #fefefe;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -899,6 +900,12 @@ select.c-form-input:not([size]):not([multiple]) {
     .c-form-cta {
       padding-left: 6rem;
       padding-right: 6rem; } }
+  .c-form-cta__title {
+    color: #fefefe; }
+
+.uniform__potty {
+  position: absolute;
+  left: -9999px; }
 
 .c-header {
   background: #fefefe; }
@@ -1045,6 +1052,7 @@ select.c-form-input:not([size]):not([multiple]) {
         flex-basis: 60%;
         max-width: 60%; } }
     .c-city__about--title {
+      color: #fefefe;
       font-size: 2.125rem;
       margin-bottom: 1.625rem; }
   .c-city__image {
@@ -1105,6 +1113,20 @@ select.c-form-input:not([size]):not([multiple]) {
     color: rgba(0, 0, 0, 0.15); }
     .c-rating__star.is-active {
       color: #ffb400; }
+
+.c-alert {
+  padding: 0.5625rem 1.25rem;
+  margin-bottom: 0.9375rem;
+  border: 1px solid transparent;
+  border-radius: 3px; }
+  .c-alert--success {
+    background-color: #dff0d8;
+    border-color: #d0e9c6;
+    color: #3c763d; }
+  .c-alert--danger {
+    background-color: #f2dede;
+    border-color: #ebcccc;
+    color: #a94442; }
 
 /*---------Spacing Utilities: Padding----------*/
 /* Spacing Level 0 */
