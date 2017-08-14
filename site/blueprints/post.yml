@@ -1,0 +1,45 @@
+title: Post
+
+pages: false
+files: true
+  fields:
+    caption:
+      label: Caption
+      type: text
+
+fields:
+  title:
+    label: Title
+    type:  title
+  coverImage:
+    icon: picture-o
+    label: Cover images
+    type: image
+    width: 3/4
+  date:
+    icon: calendar
+    label: Date
+    type: date
+    format: LL
+    placeholder: Select a date…
+    default: today
+    required: true
+    width: 1/4
+  text:
+    label: Text
+    type: textarea
+    required: true
+    
+  metatag:
+    label: Metatags
+    type: headline
+  metaTitle:
+    label: Title
+    type: text
+  metaDescription:
+    label: Description
+    type: textarea
+
+
+
+    

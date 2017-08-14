@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title><?= ($page->meta_title() != '') ? $page->meta_title() : $site->title() ?></title>
-  <meta name="description" content="<?= ($page->meta_description() != '') ? $page->meta_description() : $site->description() ?>" />
+  <title><?= ($page->metaTitle() != '') ? $page->metaTitle() : $site->title() ?></title>
+  <meta name="description" content="<?= ($page->metaDescription() != '') ? $page->metaDescription() : $site->description() ?>" />
   <link rel="canonical" href="<?= $page->url() ?>">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <?= css('assets/css/bundle.css') ?>

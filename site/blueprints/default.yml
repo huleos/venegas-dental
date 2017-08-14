@@ -8,3 +8,13 @@ fields:
   text:
     label: Text
     type:  textarea
+    
+  metatag:
+    label: Metatags
+    type: headline
+  metaTitle:
+    label: Title
+    type: text
+  metaDescription:
+    label: Description
+    type: textarea

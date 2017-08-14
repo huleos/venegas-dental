@@ -14,6 +14,7 @@ fields:
     help: Max of 30 characters required.
     validate:
       max: 30
+
   treatments:
     label: Treatments
     type: structure
@@ -30,6 +31,7 @@ fields:
       link:
         label: Landing url
         type: url
+
   titleCity:
     label: City
     type: text
@@ -73,3 +75,13 @@ fields:
       text:
         label: Description
         type: textarea
+
+  metatag:
+    label: Metatags
+    type: headline
+  metaTitle:
+    label: Title
+    type: text
+  metaDescription:
+    label: Description
+    type: textarea

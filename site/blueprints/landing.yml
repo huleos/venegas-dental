@@ -15,6 +15,7 @@ fields:
     help: Max of 30 characters required.
     validate:
       max: 30
+      
   reviews:
     label: Reviews
     type: structure
@@ -48,3 +49,13 @@ fields:
       text:
         label: Description
         type: textarea
+
+  metatag:
+    label: Metatags
+    type: headline
+  metaTitle:
+    label: Title
+    type: text
+  metaDescription:
+    label: Description
+    type: textarea
