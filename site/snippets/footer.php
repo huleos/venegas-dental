@@ -18,8 +18,8 @@
 				<div class="o-flex o-flex--justify o-flex--middle">
 					<p class="c-footer__copy">&copy; 2017 All Rights Reserved</p>
 					<nav class="c-footer--nav o-flex o-flex--center o-flex--middle">
-						<a href="" class="c-footer--nav__link">Terms & Conditions</a>
-						<a href="" class="c-footer--nav__link">Privacy Policy</a>
+						<a href="<?= url('terms-and-conditions') ?>" class="c-footer--nav__link">Terms & Conditions</a>
+						<!-- <a href="" class="c-footer--nav__link">Privacy Policy</a> -->
 					</nav>
 				</div>
 			</div>

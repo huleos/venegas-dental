@@ -1,0 +1,18 @@
+title: Robots.txt
+options:
+  preview: false
+  status: false
+  template: false
+  url: false
+  delete: false
+pages: false
+files: false
+icon: cogs
+fields:
+  rules:
+    label: Robots.txt
+    type: textarea
+    buttons: false
+    help:
+      en: "Edit the content of your robots.txt. For examples, see: http://www.robotstxt.org/robotstxt.html."
+      nl: "Bewerk de inhoud van je robots.txt. Voor voorbeelden, zie: http://www.robotstxt.org/robotstxt.html."

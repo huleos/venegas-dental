@@ -28,3 +28,7 @@ fields:
     label: Bcc
     type: email
     width: 1/2
+
+  tagManager:
+    label: Tag Manager
+    type:  textarea

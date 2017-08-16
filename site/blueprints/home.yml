@@ -11,9 +11,9 @@ fields:
   coverText:
     label: Cover Text
     type: text
-    help: Max of 30 characters required.
+    help: Max of 60 characters required.
     validate:
-      max: 30
+      max: 60
 
   treatments:
     label: Treatments

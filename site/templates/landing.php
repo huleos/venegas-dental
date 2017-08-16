@@ -8,7 +8,6 @@
 	</div>
 </div>
 <!-- /Cover with Form Snippet -->
-<?php snippet('about') ?>
 
 <section class="o-container--md u-pt4">
 	<?= $page->text()->kirbytext() ?>
