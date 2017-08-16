@@ -1,6 +1,7 @@
 <?php snippet('header') ?>
 
 <section class="o-container--md u-pt4 u-pb4">
+	<h1 class="u-mb2"><?= $page->title() ?></h1>
 	<?php foreach($articles as $article): ?>
 	<article class="c-article">
 		<?php if($image = $article->coverImage()->toFile()): ?>
