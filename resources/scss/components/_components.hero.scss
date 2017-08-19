@@ -1,0 +1,23 @@
+///* ========================================================================
+//   #COVER
+//   ======================================================================== */
+
+
+.c-hero {
+	width: 100%;
+	padding: rem(15);
+	background-image: linear-gradient(216deg, #55cac2 0%, #13dcbe 53%, #2f908e 100%);
+	order: 2;
+	@include breakpoint(md) { order: 3; }
+
+	&__text {
+		color: $white;
+		font-size: rem(24);
+		margin-bottom: 0;
+		text-align: center;
+		@include breakpoint(md) {
+			font-size: rem(58);
+			margin-bottom: rem(15);
+		}
+	}
+}

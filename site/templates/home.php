@@ -3,8 +3,15 @@
 <!-- Cover with Form Snippet -->
 <div class="o-container--full u-px0">
 	<div class="o-flex o-flex--justify">
-	<?php snippet('cover') ?>
-	<?php snippet('form-cta') ?>
+		<div class="c-cover"></div>
+		<?php snippet('form-cta') ?>
+		<div class="c-hero">
+			<?php if($page->isHomePage()): ?>
+			<h1 class="c-hero__text"><?= $page->coverText() ?></h1>
+			<?php else: ?>
+			<h2 class="c-hero__text"><?= $page->coverText() ?></h2>
+			<?php endif ?>
+		</div>
 	</div>
 </div>
 <!-- /Cover with Form Snippet -->

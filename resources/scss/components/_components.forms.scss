@@ -40,10 +40,12 @@ select.c-form-input {
 	background-color: $bg-form;
 	padding: rem(40) rem(20) rem(72);
 	color: $white;
+	order: 3;
 	@include breakpoint(md) {
 		flex: 0 0 35%;
 		max-width: 35%;
 		padding: rem(40);
+		order: 2;
 	}
 	@include breakpoint(xxl) {
 		padding-left: rem(96);

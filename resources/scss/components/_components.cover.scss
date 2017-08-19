@@ -10,27 +10,14 @@
 	background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
+  // display: flex;
+  // justify-content: center;
+  // align-items: flex-end;
+  order: 1;
   min-height: 250px;
 	@include breakpoint(md) {
 		flex: 0 0 65%;
 		max-width: 65%;
 	}
-	&__intro {
-		width: 100%;
-		padding: rem(15);
-		background-color:rgba(7, 109, 102, 0.72);
-	}
-	&__text {
-		color: $white;
-		font-size: rem(24);
-		margin-bottom: 0;
-		text-align: center;
-		@include breakpoint(md) {
-			font-size: rem(58);
-			margin-bottom: rem(15);
-		}
-	}
+
 }
