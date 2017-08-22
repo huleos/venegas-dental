@@ -11,15 +11,13 @@
 </head>
 <body>
 
-<header class="c-header">
-  <div class="o-container">
-    <div class="o-flex o-flex--wrap o-flex--justify o-flex--middle">
-      <div class="c-header--logo">
-        <a href="<?= url() ?>">
-          <img src="<?= url('assets/images/logo.png') ?>" alt="<?= $site->title() ?>">
-        </a>
-      </div>
-      <?php snippet('header-nav') ?>
+<header class="c-header o-container--full">
+  <div class="o-flex o-flex--wrap o-flex--justify o-flex--middle">
+    <div class="c-header--logo">
+      <a href="<?= url() ?>">
+        <img src="<?= url('assets/images/logo.png') ?>" alt="<?= $site->title() ?>">
+      </a>
     </div>
+    <?php snippet('header-nav') ?>
   </div>
 </header>

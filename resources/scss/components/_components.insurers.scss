@@ -24,9 +24,11 @@
     padding-left: rem(15);
     padding-right: rem(15);
     img {
-      display: block;
-      margin: 0 auto;
-      max-width: rem(150);
+      @include breakpoint(md) {
+        display: block;
+        margin: 0 auto;
+        max-width: rem(150);
+      }
     }
     @include breakpoint(md) {
       flex: 0 0 20%;
