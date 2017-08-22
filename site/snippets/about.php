@@ -6,10 +6,10 @@
 		<div class="c-about__text u-px1 u-py1">
 			<div class="c-about__certifications o-flex o-flex--left o-flex--middle">
 				<div class="c-about__certifications-item">
-					<img src="<?= url('assets/images/ada-venegas.png') ?>" alt="<?= $site->title() ?>">
+					<img src="<?= url('assets/images/certifications/ada-venegas.png') ?>" alt="<?= $site->title() ?>">
 				</div>
 				<div class="c-about__certifications-item">
-					<img src="<?= url('assets/images/aao-venegas.png') ?>" alt="<?= $site->title() ?>">
+					<img src="<?= url('assets/images/certifications/aao-venegas.png') ?>" alt="<?= $site->title() ?>">
 				</div>
 			</div>
 			<p><?= $site->aboutUs()->kirbytext() ?></p>
