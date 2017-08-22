@@ -4,9 +4,6 @@
 
 
 .c-reviews {
-
-  padding-top: rem(48);
-  padding-bottom: rem(48);
   overflow: auto;
   @include breakpoint(md) {
     padding-top: rem(48 + 16);

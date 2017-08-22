@@ -34,7 +34,7 @@
 	</div>
 </div><!-- .c-treatments -->
 
-<div class="c-city o-container--full u-px0">
+<div class="c-city o-container--full u-px0 u-py4">
 	<div class="o-container">
 		<div class="o-flex o-flex--middle">
 				<div class="c-city__about u-px1">
@@ -49,7 +49,7 @@
 	</div>
 </div><!-- .c-city -->
 
-<div class="c-reviews o-container--full u-px0">
+<div class="c-reviews o-container--full u-px0 u-py4">
 	<div class="o-container">
 		<h2 class="c-reviews--title">Reviews</h2>
 		<div class="o-flex">

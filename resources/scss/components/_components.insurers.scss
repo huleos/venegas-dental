@@ -1,0 +1,36 @@
+///* ========================================================================
+//   #INSURERS
+//   ======================================================================== */
+
+
+.c-insurers {
+
+  &--title {
+    color: map-get($brand-color, secondary);
+    text-align: center;
+    font-size: rem(34);
+    margin-bottom: rem(26);
+  }
+
+  &__content {
+    border-top: 1px solid rgba($gray-light, .8);
+    padding-top: rem(26);
+  }
+
+  &--logo {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: rem(15);
+    padding-left: rem(15);
+    padding-right: rem(15);
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: rem(150);
+    }
+    @include breakpoint(md) {
+      flex: 0 0 20%;
+      max-width: 20%;
+    }
+  }
+}
