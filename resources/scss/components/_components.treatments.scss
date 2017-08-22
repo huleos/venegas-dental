@@ -36,7 +36,7 @@ $bg-color-treatment: map-get($brand-color, primary) !default;
   &__block {
     background-color: lighten($bg-color-treatment, 42%);
     padding: rem(26);
-    margin-bottom: rem(22);
+    height: 100%;
     &--title {
       font-size: rem(26);
       color: map-get($brand-color, secondary);

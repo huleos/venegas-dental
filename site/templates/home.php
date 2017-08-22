@@ -22,7 +22,7 @@
 		<h2 class="c-treatments--title">Our Procedures</h2>
 		<div class="o-flex">
 			<?php foreach($page->treatments()->toStructure() as $item): ?>
-			<div class="c-treatment__container u-px1">
+			<div class="c-treatment__container u-px1 u-mb2">
 				<div class="c-treatment__block">
 					<h3 class="c-treatment__block--title"><?= $item->title() ?></h3>
 					<p><?= excerpt($item->text(), 350) ?></p>
