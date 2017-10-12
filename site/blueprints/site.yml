@@ -29,6 +29,11 @@ fields:
     type: email
     width: 1/2
 
+  mailChimp:
+    label: Mailchimp
+    type:  text
+    help: Please enter the Mailchimp "form action"
+
   tagManager:
     label: Tag Manager
     type:  textarea

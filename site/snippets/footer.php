@@ -8,8 +8,8 @@
   	</div>
   	<div class="o-container--sm">
   		<div class="o-flex o-flex--center">
-  			<form action="" class="c-footer--form">
-  				<input type="text" placeholder="Enter your email address" class="c-form-input">
+  			<form action="<?= $site->mailChimp() ?>" method="post" class="c-footer--form">
+  				<input type="email" autocapitalize="off" autocorrect="off" name="EMAIL" placeholder="Enter your email address" class="c-form-input">
   				<input class="c-button c-button--primary c-button--large" type="submit" value="Subscribe">
   			</form>
 			</div>
