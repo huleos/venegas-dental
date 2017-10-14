@@ -34,6 +34,27 @@
 			<div class="c-insurers--logo">
 				<img src="<?= url('assets/images/insurers/united-health-care.jpg') ?>" alt="">
 			</div>
+			<div class="c-insurers--logo">
+				<img src="<?= url('assets/images/insurers/anthem.jpg') ?>" alt="">
+			</div>
+			<div class="c-insurers--logo">
+				<img src="<?= url('assets/images/insurers/ccpoa.jpg') ?>" alt="">
+			</div>
+			<div class="c-insurers--logo">
+				<img src="<?= url('assets/images/insurers/first-dental-health.jpg') ?>" alt="">
+			</div>
+			<div class="c-insurers--logo">
+				<img src="<?= url('assets/images/insurers/liberty-mutual-insurance.jpg') ?>" alt="">
+			</div>
+			<div class="c-insurers--logo">
+				<img src="<?= url('assets/images/insurers/principal.jpg') ?>" alt="">
+			</div>
+			<div class="c-insurers--logo">
+				<img src="<?= url('assets/images/insurers/western-growers.jpg') ?>" alt="">
+			</div>
+			<div class="c-insurers--logo">
+				<img src="<?= url('assets/images/insurers/united-of-omaha-life.jpg') ?>" alt="">
+			</div>
 		</div>
 	</div>
 </div>
