@@ -1,0 +1,31 @@
+///* ========================================================================
+//   #TABLES
+//   ======================================================================== */
+
+.c-table {
+	width: 100%;
+  border-collapse: inherit;
+  border-radius: $global-radius;
+  border: 1px solid $gray-medium;
+
+  th {
+  	border-left: 1px solid $gray-medium;
+  	background: lighten($gray-medium, 17);
+  	&:first-child {
+  		border-left: none;
+  	}
+  }
+
+  td {
+  	vertical-align: top;
+  	border-top: 1px solid $gray-medium;
+  	border-left: 1px solid $gray-medium;
+  	&:first-child {
+  		border-left: none;
+  	}
+  }
+  
+  &--hover {
+    tbody tr:hover { background-color: lighten($gray-medium, 19); }
+  }
+}

@@ -1,0 +1,101 @@
+title: Price List
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  text:
+    label: Text
+    type:  textarea
+
+  coverText:
+    label: Cover Text
+    type: text
+    help: Max of 60 characters required.
+    validate:
+      max: 60
+
+  orthodontics:
+    label: Orthodontics
+    type: structure
+    style: table
+    fields:
+      procedure:
+        label: Procedure
+        type: text
+      price:
+        label: Price
+        type: number
+
+  implantProcedures:
+    label: Implant Procedures
+    type: structure
+    style: table
+    fields:
+      procedure:
+        label: Procedure
+        type: text
+      price:
+        label: Price
+        type: number
+
+  dentures:
+    label: Dentures
+    type: structure
+    style: table
+    fields:
+      procedure:
+        label: Procedure
+        type: text
+      price:
+        label: Price
+        type: number
+
+  crownsVeneers:
+    label: Crowns / Veneers
+    type: structure
+    style: table
+    fields:
+      procedure:
+        label: Procedure
+        type: text
+      price:
+        label: Price
+        type: number
+
+  rootCanalTreatment:
+    label: Root Canal Treatment
+    type: structure
+    style: table
+    fields:
+      procedure:
+        label: Procedure
+        type: text
+      price:
+        label: Price
+        type: number
+
+  diagnostics:
+    label: Diagnostics
+    type: structure
+    style: table
+    fields:
+      procedure:
+        label: Procedure
+        type: text
+      price:
+        label: Price
+        type: number
+
+  cleaningWhiteningFillingsExtractions:
+    label: Cleaning, Whitening, Fillings & Extractions
+    type: structure
+    style: table
+    fields:
+      procedure:
+        label: Procedure
+        type: text
+      price:
+        label: Price
+        type: number
