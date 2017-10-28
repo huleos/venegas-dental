@@ -39,8 +39,8 @@ return function($site, $pages, $page) {
       $email = email(array(
         'to' => $site->contactTo(),
         'from' => $data['fullName'] . '<'.$data['emailAddress'].'>',
-        'bcc' => $site->contactBcc(),
-        // 'bcc' => ($site->contactBcc() != '') ? $site->contactBcc() : '',
+        // 'bcc' => $site->contactBcc(),
+        'bcc' => ($site->contactBcc() != '') ? $site->contactBcc() : '',
         'subject' => 'New email from ' . $data['fullName'],
         'replyTo' => $data['emailAddress'],
         'body'    => $body
