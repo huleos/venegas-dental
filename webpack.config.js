@@ -7,7 +7,6 @@ let ImageminWebpackPlugin = require('imagemin-webpack-plugin').default
 let CleanWebpackPlugin = require('clean-webpack-plugin')
 let BrowserSyncPlugin = require('browser-sync-webpack-plugin')
 let autoprefixer = require('autoprefixer')
-let BabiliWebpackPlugin = require('babili-webpack-plugin')
 
 
 // Config
@@ -40,8 +39,7 @@ module.exports = {
 						{
 							loader: 'css-loader',
 							options: {
-								sourceMap: true,
-								minimize: false
+								sourceMap: true
 							}
 						},
 						{
@@ -73,7 +71,6 @@ module.exports = {
 		]
 	},
 	plugins: [
-		new BabiliWebpackPlugin(),
 		new BrowserSyncPlugin(
 			{
 				proxy: 'venegas.dev',
@@ -99,7 +96,7 @@ module.exports = {
 			}
 		),
 		new ExtractTextPlugin({
-			filename: '../css/[name].css',
+			filename: '../css/style.css',
 			allChunks: true
 		}),
 		new CopyWebpackPlugin([
