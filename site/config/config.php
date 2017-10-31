@@ -29,4 +29,5 @@ of the system, please check out http://getkirby.com/docs/advanced/options
 
 */
 
-c::set('debug', true); // Debug
+c::set('debug', false); // Debug
+c::set('sitemap.include.invisible', true);
