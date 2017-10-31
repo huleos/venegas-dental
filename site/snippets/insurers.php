@@ -1,6 +1,6 @@
 <div class="c-insurers o-container--full u-px0 u-py3">
 	<div class="o-container c-insurers__content">
-		<h3 class="c-insurers--title">We accept insurers</h3>
+		<h3 class="c-insurers--title">We Accept Insurance</h3>
 	</div>
 	<div class="o-container">
 		<div class="o-flex o-flex--center o-flex--middle">
