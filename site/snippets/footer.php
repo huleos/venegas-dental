@@ -29,5 +29,6 @@
 </footer>
 
 	<?= js('assets/js/bundle.js') ?>
+	<?= $site->tagManager() ?>
 </body>
 </html>
