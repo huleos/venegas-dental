@@ -25,7 +25,7 @@
 		<thead>
 			<tr>
 				<th>Procedure</th>
-				<th>Price starting at</th>
+				<th width="150">Price starting at</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -43,7 +43,7 @@
 		<thead>
 			<tr>
 				<th>Procedure</th>
-				<th>Price starting at</th>
+				<th width="150">Price starting at</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -61,7 +61,7 @@
 		<thead>
 			<tr>
 				<th>Procedure</th>
-				<th>Price starting at</th>
+				<th width="150">Price starting at</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -79,7 +79,7 @@
 		<thead>
 			<tr>
 				<th>Procedure</th>
-				<th>Price starting at</th>
+				<th width="150">Price starting at</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -97,7 +97,7 @@
 		<thead>
 			<tr>
 				<th>Procedure</th>
-				<th>Price starting at</th>
+				<th width="150">Price starting at</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -115,7 +115,7 @@
 		<thead>
 			<tr>
 				<th>Procedure</th>
-				<th>Price starting at</th>
+				<th width="150">Price starting at</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -133,7 +133,7 @@
 		<thead>
 			<tr>
 				<th>Procedure</th>
-				<th>Price starting at</th>
+				<th width="150">Price starting at</th>
 			</tr>
 		</thead>
 		<tbody>
