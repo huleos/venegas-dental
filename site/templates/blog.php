@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<section class="o-container--md u-pt4 u-pb4">
+<section class="o-container--sm u-pt4 u-pb4">
 	<h1 class="u-mb2"><?= $page->title() ?></h1>
 	<?php foreach($articles as $article): ?>
 	<a href="<?= $article->url() ?>" class="c-article">

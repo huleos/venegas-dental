@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<section class="o-container--md u-pt4 u-pb4">
+<section class="o-container--sm u-pt4 u-pb4">
 	<article class="c-article c-article--single">
 		<?php if($image = $page->coverImage()->toFile()): ?>
 		<div class="c-article__img">
