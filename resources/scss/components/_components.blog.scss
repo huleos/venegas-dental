@@ -1,0 +1,46 @@
+///* ========================================================================
+//   #BLOG
+//   ======================================================================== */
+
+.c-article {
+  border-radius: rem(8);
+  overflow: hidden;
+  margin-bottom: rem(48);
+  // box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.11), 0 3px 7px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 3px hsla(0,0%,4%,.1), 0 0 0 1px hsla(0,0%,4%,.1);
+  position: relative;
+  transition: all 0.25s ease-out;
+  display: block;
+  color: $gray-dark;
+  
+  &:hover {
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.11), 0 3px 7px 0 rgba(0, 0, 0, 0.08);
+    color: inherit;
+  }
+
+  &__img {
+    display: block;
+  }
+
+  &__content {
+    padding: rem(22);
+  }
+
+  &__title {
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  &__meta {
+    font-size: 80%;
+    color: $gray-dark;
+    margin-bottom: rem(20)
+  }
+
+  &--single {
+    &:hover {
+      box-shadow: 0 2px 3px hsla(0,0%,4%,.1), 0 0 0 1px hsla(0,0%,4%,.1);
+      color: $gray-dark;
+    }
+  }
+}

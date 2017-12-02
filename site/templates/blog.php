@@ -3,20 +3,22 @@
 <section class="o-container--md u-pt4 u-pb4">
 	<h1 class="u-mb2"><?= $page->title() ?></h1>
 	<?php foreach($articles as $article): ?>
-	<article class="c-article">
+	<a href="<?= $article->url() ?>" class="c-article">
 		<?php if($image = $article->coverImage()->toFile()): ?>
-			<a href="<?= $article->url() ?>" class="c-article__img">
+			<div class="c-article__img">
 				<img src="<?= $image->url() ?>" alt="<?= $article->title() ?>" >
-			</a>
+			</div>
 		<?php endif ?>
 		<div class="c-article__content">
 			<h2 class="c-article__title">
-				<a href="<?= $article->url() ?>"><?= $article->title() ?></a>
+				<?= $article->title() ?>
 			</h2>
-			<time><?= $article->date('F jS, Y') ?></time>
+			<div class="c-article__meta">
+				<time><?= $article->date('F jS, Y') ?></time>
+			</div>
 			<p><?= $article->text()->excerpt(50, 'words') ?></p>
 		</div>
-	</article>
+	</a>
 	<?php endforeach ?>
 </section>
 

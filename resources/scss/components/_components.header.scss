@@ -2,6 +2,7 @@
 //   #HEADER
 //   ======================================================================== */
 
+$header-nav-link: #607D8B;
 
 .c-header {
   background: $white;
@@ -35,10 +36,18 @@
   }
 
   &__tel {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid $gray-medium;
+    padding-bottom: rem(8);
     a {
       color: $gray-ultra;
     }
     @include breakpoint(md) {
+      margin-right: rem(18);
+      width: auto;
+      border: 0;
+      padding-bottom: 0;
       a {
         font-size: 120%;
       }
@@ -55,16 +64,16 @@
   	}
   }
 
-  &__price-list {
-    margin-top: rem(12);
-    margin-bottom: rem(12);
-    color: map-get($brand-color, secondary);
+  &__link{
+    // color: map-get($brand-color, secondary);
+    color: $header-nav-link;
     font-weight: bold;
-    flex-basis: 100%;
+    flex-basis: auto;
     padding: rem(12) rem(15);
     @include breakpoint(md) {
+      margin-top: rem(12);
+      margin-bottom: rem(12);
       flex-basis: auto;
-      margin-left: rem(18);
       border-left: 1px solid $gray-light;
     }
   }
