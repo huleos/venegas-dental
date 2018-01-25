@@ -1,5 +1,8 @@
 <?php snippet('header') ?>
 
+<?php if($page->isVisible('price-list')): ?>
+	<?php go('/') ?>
+<?php endif ?>
 <!-- Cover with Form Snippet -->
 <div class="o-container--full u-px0">
 	<div class="o-flex o-flex--justify">
