@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<?php if($page->isVisible('price-list')): ?>
+<?php if($page->isInvisible()): ?>
 	<?php go('/') ?>
 <?php endif ?>
 <!-- Cover with Form Snippet -->
